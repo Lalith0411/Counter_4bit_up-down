@@ -72,7 +72,8 @@ Functional Simulation:
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
 
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
-![Screenshot 2025-03-17 154529](https://github.com/user-attachments/assets/db3a282f-8b22-40bb-970f-3f66cdbceccd)
+![Screenshot 2025-04-23 155442](https://github.com/user-attachments/assets/4583d868-1bf7-4bd5-8fb1-39cae80dceb1)
+
 
 
 
@@ -80,7 +81,8 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ## Fig 3: Setting Multi-step simulation
 
-![Screenshot 2025-03-17 154550](https://github.com/user-attachments/assets/bd29c85d-ccd2-4b77-9d2d-67f4d8c1108b)
+![Screenshot 2025-03-17 154529](https://github.com/user-attachments/assets/d102bc5f-52f4-4502-8e51-c82f890d2493)
+
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -88,7 +90,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ## Fig 4: cds.lib file Creation
 
-![WhatsApp Image 2025-04-21 at 21 13 49_17192b66](https://github.com/user-attachments/assets/32bf6def-254d-4d86-91e4-2f849f45d7a2)
+![Screenshot 2025-04-23 155849](https://github.com/user-attachments/assets/aff5e710-ffb8-4feb-8ba5-b80758e0f0a6)
+
 
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
@@ -99,7 +102,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ## Fig 5: Selection of Don’t include any libraries
 
-![WhatsApp Image 2025-04-21 at 21 13 48_38dac42c](https://github.com/user-attachments/assets/538dc56e-d5d7-4a3b-a656-c1ce8628ee8e)
+![Screenshot 2025-04-23 155938](https://github.com/user-attachments/assets/65d58143-8c29-415b-b14c-55926df02df1)
+
 
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
@@ -111,7 +115,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ## Fig 6: Nclaunch Window
-![Screenshot 2025-03-17 155412](https://github.com/user-attachments/assets/3a71add4-8ef1-469e-b91c-d69e29abf86a)
+![Screenshot 2025-03-17 155412](https://github.com/user-attachments/assets/e6de797f-9451-4f17-a94e-120649e8fedf)
+
 
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
@@ -137,7 +142,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ## Fig 7: Compiled database in worklib
-![Screenshot 2025-03-17 155412](https://github.com/user-attachments/assets/55310431-5c9b-446c-8d03-8f11c9deffbd)
+![Screenshot 2025-03-17 155412](https://github.com/user-attachments/assets/fc6ea998-164a-4fa4-ba2f-a84dbd32ddd0)
+
 
 
 	After compilation it will come under worklib you can see in right side window
@@ -170,6 +176,7 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![Screenshot 2025-03-17 155845](https://github.com/user-attachments/assets/f3618c76-9640-450f-b929-506a4e61b82a)
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -183,10 +190,11 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
-![Screenshot 2025-03-17 155845](https://github.com/user-attachments/assets/ed36614f-5284-4618-8d71-acf0129cadcc)
+![Screenshot 2025-03-17 161927](https://github.com/user-attachments/assets/70caadeb-8476-4aa2-aaaa-7cceb0efc6fc)
+
 
 ## Fig 10: Simulation Waveform Window
-![Screenshot 2025-03-17 161927](https://github.com/user-attachments/assets/e2763f2d-7883-47fc-af06-0e427a88276f)
+![Screenshot 2025-03-17 162033](https://github.com/user-attachments/assets/490adc06-5f31-44b0-b9ac-be2badd55c32)
 
 
 ### Result
