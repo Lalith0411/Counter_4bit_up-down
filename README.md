@@ -72,15 +72,15 @@ Functional Simulation:
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
 
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
+![Screenshot 2025-03-17 154529](https://github.com/user-attachments/assets/db3a282f-8b22-40bb-970f-3f66cdbceccd)
 
-![WhatsApp Image 2025-04-21 at 21 13 49_8ef4dd38](https://github.com/user-attachments/assets/2d263b9d-0355-4f5d-b4b1-c0e5e1951dd1)
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
 ## Fig 3: Setting Multi-step simulation
 
-![WhatsApp Image 2025-04-21 at 21 13 48_67d7b472](https://github.com/user-attachments/assets/c707f7b8-2f31-48a6-948e-16d9fa66ec35)
+![Screenshot 2025-03-17 154550](https://github.com/user-attachments/assets/bd29c85d-ccd2-4b77-9d2d-67f4d8c1108b)
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -111,7 +111,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ## Fig 6: Nclaunch Window
-![WhatsApp Image 2025-04-21 at 21 13 49_3a963248](https://github.com/user-attachments/assets/48039ff8-6a9e-422d-a947-e27a621c43f2)
+![Screenshot 2025-03-17 155412](https://github.com/user-attachments/assets/3a71add4-8ef1-469e-b91c-d69e29abf86a)
 
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
@@ -137,7 +137,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ## Fig 7: Compiled database in worklib
-![WhatsApp Image 2025-04-21 at 21 13 48_c0c70d93](https://github.com/user-attachments/assets/c9292f0f-53c5-446e-be99-613c8abecb1e)
+![Screenshot 2025-03-17 155412](https://github.com/user-attachments/assets/55310431-5c9b-446c-8d03-8f11c9deffbd)
 
 
 	After compilation it will come under worklib you can see in right side window
@@ -183,14 +183,14 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
-![WhatsApp Image 2025-04-21 at 21 13 49_0bd333c2](https://github.com/user-attachments/assets/fb569083-d0fe-4e17-aa43-bef2f4893fd9)
+![Screenshot 2025-03-17 155845](https://github.com/user-attachments/assets/ed36614f-5284-4618-8d71-acf0129cadcc)
 
 ## Fig 10: Simulation Waveform Window
-![WhatsApp Image 2025-04-21 at 21 13 48_8809ef4a](https://github.com/user-attachments/assets/ef752b76-8e3f-4e5f-88df-147d3433cb35)
+![Screenshot 2025-03-17 161927](https://github.com/user-attachments/assets/e2763f2d-7883-47fc-af06-0e427a88276f)
 
 
 ## Fig 11: Simulation Waveform Window
-![WhatsApp Image 2025-04-21 at 21 13 49_453a22c5](https://github.com/user-attachments/assets/5842caf4-59bf-48be-b168-87097b847a20)
+![Uploading Screenshot 2025-03-17 162033.png…]()
 
 ### Result
 
